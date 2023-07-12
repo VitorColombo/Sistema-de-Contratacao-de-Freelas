@@ -9,13 +9,13 @@ Sua utilização se dá a partir de uma tela inicial que usa a classe console pa
 ### - Projetos
 Possuem pré-requisitos, descrição, id, empresa, lista de inscritos, contratado/os (ao final do processo de contratação) e possuirão um processo seletivo cada.  Como métodos a classe possui métodos para abrir e fechar o processo seletivo, iniciar processo seletivo.
 
-### Freelancers (pessoa física)
+### - Freelancers (pessoa física)
 Podem se inscrever e ser contratados para mais de um projeto de trabalho simultaneamente, os freelancers terão um enum que dirá seu nível de experiência, CPF, nome, uma lista para guardar processos seletivos em que se inscreveu e outra lista para guardar os projetos ativos.
 
-### Processos seletivos 
+### - Processos seletivos 
 Possuem um requisito, um array list de candidatos, uma empresa responsável, um projeto para seleção, salário e status (variável booleana que define se o processo está aberto ou fechado). Nesta classe existem métodos para a inscrição de uma pessoa física no processo, listagem dos candidatos já existentes, remover candidatos do processo e contratação de um selecionado.
 
-### Empresas
+### - Empresas
 Possuem nome, CNPJ, lista de projetos, lista de funcionários contratados. O método contratação escolherá um dos candidatos da lista de vagas e o tornará contratado. Método abrir ou fechar vaga pode ser usado pela empresa mediante a disponibilidade. Método demissão para caso o trabalhador tenha sido demitido.
 
 ```mermaid
